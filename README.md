@@ -12,8 +12,6 @@
     -First of all we decide to do the diagram PUML, whit this diagram we use to see more easly how to start the program and do this part by part
 
     -After we finish the diagram puml, we diagle and we agrre to start the main, and chose the ascii characters
-![Diagrama](./Brick_Breacker.puml)
-![Imagen](./https://www.digitalgamemuseum.org/wp-content/uploads/2015/04/Chat-over-Pong.jpg)
 ## History of the Game:
 
 ### The Brick Breacker Gae was Development by Nolan Bushnell y Steve Bristow and created in 13 may 1976 by Atari Inc.
