@@ -1,0 +1,28 @@
+@startuml Prueba
+
+class Juego
+class Barra
+class Ladrillos
+class Pelota
+class Colisionable
+class Jugador
+class Vida
+
+Juego "1" o-- "1..*" Ladrillos
+Juego "1" o-- "1" Jugador
+
+Ladrillos o-- "1..*" Colores
+
+Jugador "3" o-- "1" Vida
+
+Jugador "*" -- "1" Juego
+Jugador "1" -- "1" Barra
+Jugador "3" -- "1" Vida
+
+Barra "1" -- "1" Pelota
+Barra "3" -- "1" Vida
+
+Pelota --|> Colisionable
+Ladrillos --|> Colisionable
+
+@enduml
