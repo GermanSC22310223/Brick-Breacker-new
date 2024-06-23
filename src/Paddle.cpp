@@ -1,4 +1,4 @@
-#include "Paddle.h"
+#include "Paddle.hpp"
 
 Paddle::Paddle(float startX, float startY) {
     shape.setPosition(startX, startY);
